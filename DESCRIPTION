@@ -1,15 +1,17 @@
 Package: dflrwt
-Title: What the Package Does (One Line, Title Case)
+Title: 
+  DiNardo-Fortin-Lemieux (DFL) Reweighting Decomposition Method 
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Kota",
+           family = "Tagami",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "kota.tagami.123@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: 
+  An implementation of the decomposition method firstly proposed by DiNardo etal. (1996) in R.
+  This technique is based on a reweighting procedure such as Inverse Probability Weighting (IPW) to estimate the counterfactual outcome of interest.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
